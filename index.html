@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Calculadora-IMC</title>
+</head>
+<body>
+    
+    <main>
+       
+      
+        <div class="container">
+            <div class="box-container">
+                <div class="image">
+                    <img src="imagens/image02.jpeg" alt="">
+                </div>
+                <div class="texto">
+                    <h2>Calculadora IMC</h2>
+                    <p>
+                        IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. <br>
+                
+                        O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9. <br>
+                
+                        Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+            <div class="calculadora">
+                <div class="input">
+                    <div class="inp1">
+                        <span>
+                            <small>Altura (ex: 1,73) </small>
+                        </span>
+                        <input type="number" name="altura" id="altura" placeholder="Metros">
+                    </div>
+                    <div class="inp2">
+                        <span><small>Peso (ex: 60,5) </small></span>
+                        <input type="number" name="kilos" id="kilos" placeholder="kilos">
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <button onclick="calcular()">Calcular</button>
+                    </li>
+            
+                </ul>
+            </div>
+        
+        <div class="tabela">
+
+        </div>
+    </main>
+</body>
+</html>
