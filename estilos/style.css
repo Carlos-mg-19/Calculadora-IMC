@@ -128,3 +128,14 @@ ul li{
     padding: 5px 30px;
     border-bottom: 1px solid black;
 }
+
+
+
+.resultado {
+    background-color: rgb(0, 38, 255) ;
+    margin: 30px;
+    padding: 10px 60px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
