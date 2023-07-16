@@ -15,6 +15,10 @@ function calcular(){
     resultado.innerHTML= (` Resultado:${imc.toFixed(1)}`)
    }
 }
+function apagar(){
+   altura.value = ''
+   peso.value = ''
+}
 
 
 

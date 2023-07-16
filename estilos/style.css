@@ -82,10 +82,12 @@ input::-webkit-inner-spin-button{
     
 }
 ul li{
+    display: inline-block;
     list-style: none;
 }
 
 .buton{
+    
     margin: 30px;
     padding: 9px 20px;
     border-radius: 15px;
@@ -139,3 +141,53 @@ ul li{
     border-radius: 5px;
     width: 100px;
 }
+
+
+@media screen and (max-width: 600px){
+    
+   
+    .container .box-container{
+        display: block;
+        margin: auto;
+        width: 500px;
+    }
+     
+    main{
+        width: 500px;
+        overflow: hidden;
+    }
+
+    .image{
+        width: 400px;
+    }
+
+    .image img{
+       display: flex;
+       justify-content: center; 
+    }
+
+    .texto{
+        width: 400px;
+        
+    }
+    .calculadora .input{
+       display: flex;
+       justify-content: center;
+    }
+    
+    .tabela  table thead tr td{
+        padding: 5px 10px;
+    }
+    .tabela table tbody tr td{
+        padding: 2px 5px;
+        border-bottom: 1px solid black;
+    }
+    
+    ul  {
+        display: flex;
+       justify-content: center;
+       flex-direction: row;
+    }
+
+}
+
